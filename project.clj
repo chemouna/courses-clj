@@ -13,7 +13,8 @@
                  [ring.middleware.logger "0.5.0"]
                  [compojure "1.5.0"]
                  [environ "1.0.3"]
-                 [org.omcljs/om "1.0.0-alpha36"]]
+                 [org.omcljs/om "1.0.0-alpha36"]
+                 [abengoa/clj-stripe "1.0.4"]]
 
   :plugins [[lein-cljsbuild "1.1.3"]
             [lein-environ "1.0.3"]]
